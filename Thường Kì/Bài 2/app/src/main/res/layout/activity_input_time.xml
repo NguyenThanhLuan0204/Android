@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:inputType="number"
+        android:id="@+id/editText_time"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Nhập thời gian:(giây) "
+        />
+
+    <EditText
+        android:id="@+id/editText_buocnhay"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Nhập bước nhảy:(giây)"
+        android:inputType="number"
+        android:minHeight="48dp" />
+    <Button
+        android:backgroundTint="#8BC34A"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:id="@+id/button_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        />
+    <Button
+        android:layout_gravity="center"
+        android:backgroundTint="#B63B3B"
+        android:layout_marginTop="30dp"
+        android:id="@+id/button_Exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thoát"
+        />
+</LinearLayout>

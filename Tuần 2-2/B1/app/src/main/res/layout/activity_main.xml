@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Đăng nhập hệ thống"
+       android:gravity="center"
+       android:background="#00CCAA"
+       android:textSize="25dp"
+       />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Tài khoản:"
+            android:textSize="18dp"
+            />
+        <EditText
+            android:id="@+id/EditText_TaiKhoan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Không được để trống"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Mật khẩu:"
+            android:textSize="18dp"
+            />
+        <EditText
+            android:id="@+id/EditText_MatKhau"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Không được để trống"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"/>
+    </LinearLayout>
+<CheckBox
+    android:id="@+id/CheckBox_Luu"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Lưu Thông tin"
+    android:layout_marginLeft="90dp"
+    />
+    <Button
+        android:id="@+id/Button_DangNhap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đăng Nhập"
+        android:layout_marginLeft="280dp"
+        android:backgroundTint="#2196F3"
+        />
+    <Button
+        android:id="@+id/Button_Thoat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thoát"
+        android:layout_marginLeft="315dp"
+        android:backgroundTint="#F44336"
+        />
+</LinearLayout>
